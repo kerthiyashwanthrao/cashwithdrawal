@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profilepic {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profilename {
+  color: #c7d2fe;
+  font-size: 25px;
+  padding-left: 20px;
+}
+.balancecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yourbalance {
+  color: #382f5a;
+  font-size: 25px;
+}
+.rupeescontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.balance {
+  color: #c7d2fe;
+  font-size: 25px;
+}
+.inrupees {
+  color: #382f5a;
+  font-size: 10px;
+}
+.withdrawcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.withdraw {
+  color: #c7d2fe;
+  font-size: 25px;
+}
+.choosesum {
+  color: #382f5a;
+  font-size: 25px;
+}
+.ulcontainer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
